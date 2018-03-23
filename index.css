@@ -155,7 +155,7 @@ body{
     background-color: #393D49;
 }
 .banner-bg{
-    background-image: url(http://res.layui.com/images/layui/banner0.jpg?v=0);
+    background-image: url(imgs/banner0.jpg);
     position: absolute;
     left: 0;
     top: 0;
