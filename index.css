@@ -122,6 +122,29 @@ body{
     -webkit-transition: all .3s;
     font-size: 14px;
 }
+@media screen and (max-width: 750px){
+    .main {
+        width:  auto;
+        margin: 0 10px;
+    }
+    .logo {
+        left: 10px;
+    }
+    .header .layui-nav .layui-nav-item {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 900px){
+    .component {
+        display: none;
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 1160px){
+    .main{
+        width:  auto;
+    }
+}
+
 
 /* 内容1样式 */
 .banner{
@@ -457,10 +480,15 @@ legend {
     border-image: initial;
 }
 
-@media screen and (max-width:750px){
-	
+@media screen and (min-width:770px) and (max-width: 1160px){
+	.layui-main {
+        width: auto;
+    }
+    .site-idea li{
+        margin-bottom: 20px;
+    }
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:770px){
 	.layui-main {
 	    width: auto;
 	    margin: 0 10px;
